@@ -1,0 +1,17 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "lc"
+
+[mediaTypes]
+[mediaTypes."text/html"]
+suffixes = ["php"]
+isHTML = true
+
+
+[outputs]
+home = [ "HTML"]
+
+[outputFormats]
+[outputFormats.HTML]
+mediaType = "text/html"
